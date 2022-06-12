@@ -2,7 +2,7 @@ import express from 'express';
 
 import coursesRouter from './routes/courses.js';
 import cartsRouter from './routes/carts.js';
-import { PGPORT } from './config';
+import { PGPORT } from './config.js';
 const app = express();
 
 app.use('/courses', coursesRouter);
