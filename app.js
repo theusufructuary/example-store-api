@@ -12,4 +12,6 @@ app.get('/', (req, res) => {
     res.send(`Hello from / route`)
 });
 
-app.listen(process.env.PORT, () => console.log(`Server running on port: http://localhost:${process.env.PORT}`))
+const server = app.listen(process.env.PORT, () => console.log(`Server running on port: http://localhost:${process.env.PORT}`))
+
+export default server;

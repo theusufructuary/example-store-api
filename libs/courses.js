@@ -30,6 +30,6 @@ const courses = [{
     "subscribe": "From £19 /month",
     "price": "or from £700 in full"
 
-  }]
+  }];
 
   export default courses;
