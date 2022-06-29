@@ -1,10 +1,9 @@
 import express from 'express';
-import courses from '../libs/courses.js';
+// import courses from '../libs/courses.js';
+import { readCourses } from '../controllers/courses';
 
 const router = express.Router();
 
-router.get('/', (req, res) => {
-    res.send(courses);
-})
+router.get('/').get(readCourses);
 
 export default router;
