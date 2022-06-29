@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "start": "node -r dotenv/config ./app.js",
-    "test": "node -r dotenv/config --experimental-vm-modules node_modules/jest/bin/jest.js"
+    "test": "node -r dotenv/config --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "db:createCoursesTable": "node -r dotenv/config ./db/scripts/courses/createTable.js"
   },
   "repository": {
     "type": "git",
