@@ -3,6 +3,11 @@ An example e-commerce store API inspired by Open Study College
 
 <br>
 
+# *Work In Progress*
+*This project is a part-time educational and showcasing project which is currently a work in progress.*
+
+<br>
+
 ### **This repo is one of two**
 This is the API repo, and contains most of the documentation for this project.
 
