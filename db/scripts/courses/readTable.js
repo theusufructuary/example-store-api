@@ -1,4 +1,4 @@
-import query from "../../connection";
+import query from "../../connection.js";
 
 export async function getAllCourses() {
     const allCourses = await query(`SELECT * FROM courses;`);

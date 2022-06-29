@@ -1,4 +1,4 @@
-import { getAllCourses } from "../db/scripts/courses/readTable";
+import { getAllCourses } from "../db/scripts/courses/readTable.js";
 
 export async function readCourses(req, res) {
     const courses = await getAllCourses();

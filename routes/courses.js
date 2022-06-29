@@ -1,6 +1,6 @@
 import express from 'express';
 // import courses from '../libs/courses.js';
-import { readCourses } from '../controllers/courses';
+import { readCourses } from '../controllers/courses.js';
 
 const router = express.Router();
 
