@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "start": "node -r dotenv/config ./app.js",
-    "test": "node -r dotenv/config --experimental-vm-modules node_modules/jest/bin/jest.js"
+    "test": "node -r dotenv/config --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "db:createCoursesTable": "node -r dotenv/config ./db/scripts/courses/createTable.js"
   },
   "repository": {
     "type": "git",
@@ -25,7 +26,10 @@
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.0.1",
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "express-async-handler": "^1.2.0",
+    "node-postgres": "^0.6.2",
+    "pg": "^8.7.3"
   },
   "devDependencies": {
     "jest": "^28.1.1",
